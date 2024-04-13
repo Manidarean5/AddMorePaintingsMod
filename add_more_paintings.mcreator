@@ -7,7 +7,20 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Pinturas",
+        "children": []
+      },
+      {
+        "name": "Estructuras",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "add_more_paintings",
