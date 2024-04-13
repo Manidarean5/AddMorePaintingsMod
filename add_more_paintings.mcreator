@@ -1,9 +1,24 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "DinosaurioHuevo",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinosaurio_huevo",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Pinturas"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "painting.add_more_paintings.dinosaurio_huevo.title": "Dinosaurio Huevo",
+      "painting.add_more_paintings.dinosaurio_huevo.author": "AddMorePaintings"
+    }
   },
   "foldersRoot": {
     "name": "~",
