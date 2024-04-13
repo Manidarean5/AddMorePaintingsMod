@@ -14,5 +14,6 @@ import net.mcreator.addmorepaintings.AddMorePaintingsMod;
 
 public class AddMorePaintingsModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, AddMorePaintingsMod.MODID);
+	public static final RegistryObject<PaintingVariant> ENERGIA = REGISTRY.register("energia", () -> new PaintingVariant(64, 48));
 	public static final RegistryObject<PaintingVariant> DINOSAURIO_HUEVO = REGISTRY.register("dinosaurio_huevo", () -> new PaintingVariant(64, 32));
 }
