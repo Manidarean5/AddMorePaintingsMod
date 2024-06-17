@@ -9,7 +9,7 @@
     "actionSound": {
       "value": "block.azalea_leaves.break"
     },
-    "hat": "Full",
+    "hat": "None",
     "professionTextureFile": "2021_04_18_painter-boy-17518036.png",
     "zombifiedProfessionTextureFile": "2021_04_18_painter-boy-17518036.png"
   }

@@ -27,6 +27,7 @@
     {
       "name": "MuseoPuchaina",
       "type": "structure",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "museo_puchaina",
@@ -43,6 +44,7 @@
     {
       "name": "Paintingtable",
       "type": "block",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paintingtable",
@@ -58,14 +60,27 @@
     {
       "name": "Pintor",
       "type": "villagerprofession",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pintor",
       "metadata": {
-        "files": [
-          "src/main/resources/assets/add_more_paintings/textures/entity/villager/profession/pintor.png.mcmeta"
-        ]
+        "files": []
       }
+    },
+    {
+      "name": "Paintingtablereceipt",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paintingtablereceipt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/add_more_paintings/recipes/paintingtablereceipt.json"
+        ]
+      },
+      "path": "~/Crafteos"
     }
   ],
   "variable_elements": [],
@@ -73,7 +88,7 @@
   "language_map": {
     "en_us": {
       "painting.add_more_paintings.dinosaurio_huevo.title": "Dinosaurio Huevo",
-      "block.add_more_paintings.paintingtable": "Paintingtable",
+      "block.add_more_paintings.paintingtable": "Painting table",
       "entity.minecraft.villager.add_more_paintings.pintor": "Pintor",
       "painting.add_more_paintings.energia.title": "Energia",
       "painting.add_more_paintings.dinosaurio_huevo.author": "AddMorePaintings",
@@ -93,6 +108,10 @@
       },
       {
         "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Crafteos",
         "children": []
       }
     ]
