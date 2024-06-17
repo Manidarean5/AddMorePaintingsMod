@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "add_more_paintings:museo_puchaina",
+  "step": "surface_structures"
+}

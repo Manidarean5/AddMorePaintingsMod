@@ -23,6 +23,49 @@
         "files": []
       },
       "path": "~/Pinturas"
+    },
+    {
+      "name": "MuseoPuchaina",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "museo_puchaina",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/add_more_paintings/worldgen/configured_feature/museo_puchaina.json",
+          "src/main/resources/data/add_more_paintings/forge/biome_modifier/museo_puchaina_biome_modifier.json",
+          "src/main/resources/data/add_more_paintings/worldgen/placed_feature/museo_puchaina.json",
+          "src/main/java/net/mcreator/addmorepaintings/world/features/MuseoPuchainaFeature.java"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Paintingtable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paintingtable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/add_more_paintings/models/block/paintingtable.json",
+          "src/main/java/net/mcreator/addmorepaintings/block/PaintingtableBlock.java",
+          "src/main/resources/assets/add_more_paintings/blockstates/paintingtable.json",
+          "src/main/resources/assets/add_more_paintings/models/item/paintingtable.json"
+        ]
+      }
+    },
+    {
+      "name": "Pintor",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pintor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/add_more_paintings/textures/entity/villager/profession/pintor.png.mcmeta"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -30,6 +73,8 @@
   "language_map": {
     "en_us": {
       "painting.add_more_paintings.dinosaurio_huevo.title": "Dinosaurio Huevo",
+      "block.add_more_paintings.paintingtable": "Paintingtable",
+      "entity.minecraft.villager.add_more_paintings.pintor": "Pintor",
       "painting.add_more_paintings.energia.title": "Energia",
       "painting.add_more_paintings.dinosaurio_huevo.author": "AddMorePaintings",
       "painting.add_more_paintings.energia.author": "AddMorePaintings"

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "add_more_paintings:block/paintingtable"
+    }
+  }
+}

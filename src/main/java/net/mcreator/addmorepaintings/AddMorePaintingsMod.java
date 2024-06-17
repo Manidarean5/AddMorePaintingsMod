@@ -29,7 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.addmorepaintings.init.AddMorePaintingsModVillagerProfessions;
 import net.mcreator.addmorepaintings.init.AddMorePaintingsModPaintings;
+import net.mcreator.addmorepaintings.init.AddMorePaintingsModItems;
+import net.mcreator.addmorepaintings.init.AddMorePaintingsModFeatures;
+import net.mcreator.addmorepaintings.init.AddMorePaintingsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,8 +53,13 @@ public class AddMorePaintingsMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		AddMorePaintingsModBlocks.REGISTRY.register(bus);
+		AddMorePaintingsModItems.REGISTRY.register(bus);
+
 		AddMorePaintingsModPaintings.REGISTRY.register(bus);
 
+		AddMorePaintingsModFeatures.REGISTRY.register(bus);
+		AddMorePaintingsModVillagerProfessions.PROFESSIONS.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

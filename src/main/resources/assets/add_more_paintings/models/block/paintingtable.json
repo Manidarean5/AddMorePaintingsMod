@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "add_more_paintings:block/oak_planks",
+    "up": "add_more_paintings:block/painting_table_top",
+    "north": "add_more_paintings:block/painting_table_front",
+    "east": "add_more_paintings:block/painting_table_front",
+    "south": "add_more_paintings:block/painting_table_front",
+    "west": "add_more_paintings:block/painting_table_front",
+    "particle": "add_more_paintings:block/oak_planks"
+  },
+  "render_type": "solid"
+}
